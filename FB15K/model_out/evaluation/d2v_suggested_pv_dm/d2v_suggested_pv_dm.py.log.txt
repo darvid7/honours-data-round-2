@@ -1,0 +1,60 @@
+Initalized model object: Doc2Vec suggested hyperparams Paragraph Vector - Distributed Memory
+	avaliable cores: 16
+	epochs: 20
+	type: Paragraph-Vector Distributed Memory
+	learning rate: 0.01
+	dimensions: 100
+Processed 0 - 4152216 paths in file ../../dataset_generation/constructed_paths_and_og_train_triples_as_ints.txt
+[Doc2Vec suggested hyperparams Paragraph Vector - Distributed Memory_build_vocab] took 2.381840264797211 minutes
+[Doc2Vec suggested hyperparams Paragraph Vector - Distributed Memory train] word vectors trained!
+[Doc2Vec suggested hyperparams Paragraph Vector - Distributed Memory train] took 339.41080402533214 minutes
+[Doc2Vec suggested hyperparams Paragraph Vector - Distributed Memory save_vectors_in_memory_and_delete_model] model deleted
+[Doc2Vec suggested hyperparams Paragraph Vector - Distributed Memory parse_relation_types] n2n file: ../../../KB2E-david-local/PTransE/data/n2n.txt
+Eval time mins = 308.0333617170652
+~~ RAW RESULTS ~~
+Mean head rank
+8569.782211237325
+Mean tail rank
+8482.470670887576
+Head hits
+	one-to-one: 28/963 = 0.029075804776739357
+2.907580477673936
+	many-to-one: 17/9332 = 0.0018216888126875268
+0.1821688812687527
+	one-to-many: 10/5645 = 0.001771479185119575
+0.1771479185119575
+	many-to-many: 1449/43131 = 0.03359532586770536
+3.359532586770536
+Tail hits
+	one-to-one: 34/963 = 0.035306334371754934
+3.5306334371754935
+	many-to-one: 9/9332 = 0.0009644234890698671
+0.09644234890698672
+	one-to-many: 10/5645 = 0.001771479185119575
+0.1771479185119575
+	many-to-many: 1589/43131 = 0.036841251072314576
+3.684125107231458
+~~ FILTERED RESULTS ~~
+Mean head rank
+8479.764249801086
+Mean tail rank
+8425.84430600464
+Head hits
+	one-to-one: 28/963 = 0.029075804776739357
+2.907580477673936
+	many-to-one: 19/9332 = 0.0020360051435919417
+0.20360051435919418
+	one-to-many: 10/5645 = 0.001771479185119575
+0.1771479185119575
+	many-to-many: 1932/43131 = 0.04479376782360715
+4.479376782360715
+Tail hits
+	one-to-one: 34/963 = 0.035306334371754934
+3.5306334371754935
+	many-to-one: 9/9332 = 0.0009644234890698671
+0.09644234890698672
+	one-to-many: 11/5645 = 0.0019486271036315323
+0.19486271036315322
+	many-to-many: 2216/43131 = 0.05137835895295727
+5.137835895295726
+OVERALL TIME TAKEN 652.9124156991641 mins
